@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	pritf("with proper grammar, but the outcome is a piece of art,\n")
-	return (o);
+pritf("with proper grammar, but the outcome is a piece of art,\n")
+return (o);
 }
