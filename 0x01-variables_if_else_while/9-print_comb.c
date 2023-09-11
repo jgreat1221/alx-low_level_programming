@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int mian(void)
+int main(void)
 {
 	int d;
 
@@ -17,7 +17,7 @@ int mian(void)
 	if (d != '9')
 	{
 	putchar(',');
-	putchar(',');
+	putchar(' ');
 	}
 	}
 	putchar('\n');
