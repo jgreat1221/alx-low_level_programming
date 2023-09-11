@@ -20,10 +20,10 @@ int main(void)
 
 	for (q = p + 1; q <= 10; q++)
 	{
-	putchar((d % 10) + '0')
-	putchar((p % 10) + '0')
-	putchar((q % 10) + '0')
-	if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+	putchar((d % 10) + '0');
+	putchar((p % 10) + '0');
+	putchar((q % 10) + '0');
+	if (d == 7 && q == 8 && p == 9)
 	{
 	continue;
 	putchar(',');
