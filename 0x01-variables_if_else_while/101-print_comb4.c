@@ -18,12 +18,12 @@ int main(void)
 	for (p = d + 1; p <= 9; p++)
 	{
 
-	for (q = p + 1; q <= 9; q++)
+	for (q = p + 1; q <= 10; q++)
 	{
-	putchar(d);
-	putchar(p);
-	putchar(q);
-	if (d == 7 && p == 8)
+	putchar((d % 10) + '0')
+	putchar((p % 10) + '0')
+	putchar((q % 10) + '0')
+	if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 	{
 	continue;
 	putchar(',');
