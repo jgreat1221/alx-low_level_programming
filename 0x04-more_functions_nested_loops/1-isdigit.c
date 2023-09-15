@@ -1,18 +1,11 @@
 #include "main.h"
 /**
- * _isupper - programme that checks for uppercase character
- * @c: Variable text
+ * _isdigit - function that check for a digit (0 through 9)
+ * @c: int to be checked
  * Return: Always 0 (Successful)
  */
-int _isupper(int c)
+int _isdigit(int c)
 
 {
-	if (c >= 'A' && c <= 'Z')
-	{
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	return (c >= '0' && c <= '9');
 }
